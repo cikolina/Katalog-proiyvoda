@@ -1,0 +1,57 @@
+h3{
+    text-align: center;
+    color:black;
+}
+.p-col-6 {
+    position: relative;
+    text-align: center;
+    
+    color: black;
+        }
+.centered {
+    position: absolute;
+    top: 50%;
+    left:55%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    padding: 10px;
+   
+  }
+  h5{
+      color:black;
+      text-align: center;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .p-col-4{
+      padding: 20px;
+  }
+  .p-col-4 p{
+      color: black;
+      opacity: 0.8;
+  }
+  .p-col-3 p{
+    position: relative;
+    top:40%;
+    width: 50%;
+    color: black;
+    opacity: 0.8;
+}
+.p-col-3 h2{
+    position: absolute;
+    top:17%;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border: 5px ;
+    margin: 0; 
+    background: rgba(8, 8, 8, 0.1) ;
+    text-align: center;
+   
+}
+

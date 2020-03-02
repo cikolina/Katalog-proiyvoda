@@ -1,0 +1,131 @@
+<div class="p-grid p-nogutter">
+
+    <div class="p-col-fixed" style=" background-color: green; position: relative; z-index: 10;">
+        <div style="width: 150px; background-color: GRAY;display: block; position: fixed;">
+            <a href="#paketi">
+                <h5> 1.PAKETI ZA PRAVNA LICA</h5>
+            </a>
+            <a href="#kartice">
+                <h5>2.KARTIČNI PROIZVODI</h5>
+            </a>
+            <a href="#krediti">
+                <h5>3.SERVISI</h5>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="p-col p-grid p-nogutter" style="background-color: rgb(233, 240, 233); z-index: 0;">
+
+        <div id="paketi" class="p-col-12" style="background-color:white;">
+
+            <img src="https://cdn.pixabay.com/photo/2018/04/17/11/43/adult-3327336_960_720.jpg" alt="Biznis"
+                style="width: 100%; height: 100%; object-fit: cover; ">
+            <div class="n">
+                <h2>PAKETI ZA PRAVNA LICA</h2>
+            </div>
+            <div class="centered1">
+                <div class="p-col-4" style="display: inline-block;">
+                    <h5> UniBusiness paket</h5>
+                    <span style="size: 20%">Paket za pravna lica UniBusiness jedinstven je proizvod koji klijentima
+                        omogućava korištenje brojnih bankarskih i nebankarskih proizvoda i usluga po izuzetno povoljnim
+                        cijenama.
+                    </span>
+                    <button>OPŠIRNIJE</button>
+
+                </div>
+                <div class="p-col-4" style="display:inline-block;">
+                    <h5> UniBusiness Plus paket</h5>
+                    <span style="size: 20%">Korisnici paketa za pravna lica UniBusiness Plus ostvaruju pravo na 50%
+                        niže tarife platnog prometa za transakcije elektronskog bankarstva,te uživaju i brojne druge
+                        pogodnosti..
+
+                    </span>
+                    <button>OPŠIRNIJE</button>
+
+                </div>
+            </div>
+
+        </div>
+        <div id="kartice" class="p-col-12" style="background-color:white;">
+
+            <img src="https://cdn1.itpro.co.uk/sites/itpro/files/styles/article_main_wide_image/public/2017/09/bigstock-internet-banking-online-bankin-203884069.jpg?itok=fiK8g8vk"
+                alt="Biznis" style="width: 100%; height: 100%; object-fit: cover; ">
+            <div class="n">
+                <h2>KARTIČNI PROIZVODI</h2>
+
+            </div>
+            <div class="centered" style="display: inline-block">
+                    <p-carousel headerText="Karticni proizvodi" [value]="cards" numVisible="1">
+                            <ng-template let-card pTemplate="item">
+                                 {{card.name}}<br/>
+                                <img [src]="card.imageUrl"
+                                style="height: 100px;float: left; ">
+                                <p>{{card.description}}</p>
+                                <br/>
+                                <button type="button"  (click)="selectCar(car)" style="float:right;">Opširnije >></button>
+                                <!--<div class="ui-grid ui-grid-responsive">
+                                    <div class="ui-grid-row">
+                                        <div class="ui-grid-col-12"></div>
+                                    </div>
+                                    <div class="ui-grid-row">
+                                        <div class="ui-grid-col-6">Vin</div>
+                                        <div class="ui-grid-col-6">{{card.name}}</div>
+                                    </div>
+                                    <div class="ui-grid-row">
+                                        <div class="ui-grid-col-6">Year</div>
+                                        <div class="ui-grid-col-6">{{card.name}}</div>
+                                    </div>
+                                    <div class="ui-grid-row">
+                                        <div class="ui-grid-col-6">Color</div>
+                                        <div class="ui-grid-col-6">{{card.name}}</div>
+                                    </div>
+                                    <div class="ui-grid-row">
+                                        <div class="ui-grid-col-12">
+                                            <button type="button" pButton icon="pi pi-search" (click)="selectCar(card)"></button>
+                                        </div>
+                                    </div>
+                                </div>-->
+                            </ng-template>
+                        </p-carousel>
+          
+            </div>
+        </div>
+        <div id="servisi" class="p-col-12" style="background-color:white;">
+
+            <img src="https://www.cgi-group.co.uk/sites/default/files/styles/hero_banner/public/Banking-retail-banking.jpg?itok=GcW6K1eS"
+                alt="Biznis" style="width: 100%; height: 100%; object-fit: cover; ">
+            <div class="n">
+                <h2>SERVISI</h2>
+
+            </div>
+            <div class="centered" style="display: inline-block">
+                <div class="p-col-4" style="display: inline-block;">
+                    <h2> m-ba</h2>
+                    <img src="https://www.finance-monthly.com/Finance-Monthly/wp-content/uploads/2019/02/3-Ways-Mobile-Banking-Has-Transformed-Spending-Habits.jpg"
+                        alt="Biznis">
+
+                    <p style="size: 20%">Sa UniCredit mobilnom aplikacijom m-bank možete obavljati
+                        poslove u bilo koje vrijeme i sa bilo kojeg mjesta,u zemlji ili inostranstvu,
+                        gdje god imate pristup internetu.
+                    </p>
+                    <button>OPŠIRNIJE</button>
+
+                </div>
+                <div class="p-col-4" style="display:inline-block;">
+                    <h2> e-ba</h2>
+                    <img src="https://images.news18.com/ibnlive/uploads/2019/03/120.jpg" alt="Biznis">
+                    <p style="size: 20%">Internet bankarstvo vam omogućuje efikasno
+                        upravljanje Vašim novcem zahvaljujući Banci dostupnoj 24 sata dnevno.
+                    </p>
+                    <button>OPŠIRNIJE</button>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>

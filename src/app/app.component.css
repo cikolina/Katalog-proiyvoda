@@ -1,0 +1,22 @@
+header {
+  background-color: rgb(189, 28, 28);
+}
+
+header nav a{
+ display: inline-block;
+ padding: 20px;
+ background: rgb(189, 28, 28);
+ text-decoration: none;
+ font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+main {
+  background-color: rgb(165, 177, 204);
+}
+
+footer {
+  height: 60px;
+  background-color: gray;
+}

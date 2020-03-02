@@ -1,0 +1,66 @@
+h5{
+  text-align: center;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  color: white;
+  
+
+} 
+div {
+  display: inline-block;
+}
+
+#icon {
+  text-align: center;
+}
+
+.p-col-12 {
+position: relative;
+text-align: center;
+color: white;
+}
+.p-col-4 {
+  
+  position: relative;
+  text-align: center;
+  color: gray;
+      }
+.centered {
+
+position: absolute;
+top: 70%;
+left: 32%;
+transform: translate(-50%, -50%);
+font-size: 400%;
+color:white;
+width: 500px;
+padding: 10px;
+border: 5px ;
+margin: 0; 
+background: rgba(8, 8, 8, 0.7) ;
+}
+p{
+color:gray;
+}
+.c1 {
+
+  position: absolute;
+  top: 87%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  font-size: 100%;
+  width: 500px;
+  height: 80px;
+  padding: 10px;
+  border: 5px ;
+  margin: 0; 
+  background: rgba(255, 252, 252, 0.6) ;
+}
+.c1 p{
+  color: black;
+}
+
+
